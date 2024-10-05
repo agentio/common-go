@@ -3,6 +3,7 @@ module github.com/agentio/common-go
 go 1.22.6
 
 require (
+	connectrpc.com/connect v1.17.0
 	github.com/census-instrumentation/opencensus-proto v0.4.1
 	github.com/cncf/xds/go v0.0.0-20240723142845-024c85f92f20
 	github.com/envoyproxy/protoc-gen-validate v1.1.0

@@ -1,6 +1,7 @@
 ENVOY=$(shell find ../common-proto/envoy -name "*.proto")
 UDPA=$(shell find ../common-proto/udpa -name "*.proto")
-APIS=${ENVOY} ${UDPA}
+AGENT=$(shell find ../common-proto/io/agent -name "*.proto")
+APIS=${ENVOY} ${UDPA} ${AGENT}
 
 all:	rpc grpc connect
 
